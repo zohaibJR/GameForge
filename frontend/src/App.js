@@ -1,24 +1,24 @@
 import './App.css';
-import Navbar from "./components/Navbar/Navbar.jsx"; // ✅ Ensure correct capitalization
+import Navbar from "./components/Navbar/navbar.jsx"; // ✅ Ensure correct capitalization
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import shop from './pages/Shop.jsx';
-import shopCategory from './pages/ShopCategory.jsx';
-import product from './pages/Product.jsx';
-import cart from './pages/Cart.jsx';
-import login from './pages/LoginSignup.jsx';
+import Shop from './pages/Shop.jsx';
+import ShopCategory from './pages/ShopCategory.jsx';
+import Product from './pages/Product.jsx';
+import Cart from './pages/Cart.jsx';
+import Login from './pages/LoginSignup.jsx';
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<shop />} />
-        <Route path='/PS4' element={<shopCategory category="PS4" />} />
-        <Route path='/Xbox' element={<shopCategory category="Xbox" />} />
-        <Route path='/Accessories' element={<shopCategory category="Accessories" />} />
-        <Route path="/product/:productID" element={<product />} /> {/* ✅ Fixed dynamic route */}
-        <Route path="/login" element={<login />} />
-        <Route path="/cart" element={<cart />} />
+        <Route path='/' element={<Shop />} />
+        <Route path='/PS4' element={<ShopCategory category="PS4" />} />
+        <Route path='/Xbox' element={<ShopCategory category="Xbox" />} />
+        <Route path='/Accessories' element={<ShopCategory category="Accessories" />} />
+        <Route path="/product/:productID" element={<Product />} /> {/* ✅ Fixed dynamic route */}
+        <Route path="/login" element={<Login />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </BrowserRouter>
   );
