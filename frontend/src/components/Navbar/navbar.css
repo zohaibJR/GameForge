@@ -25,6 +25,7 @@
     list-style: none;
     gap: 50px;
     color: #626262;
+    color: black;
     font-size: 20px;
     font-weight: 500;
 }
@@ -36,6 +37,7 @@
     justify-content: center;
     gap: 3px;
     cursor: pointer;
+    color: black;
 }
 
 .nav-menu hr
@@ -84,5 +86,4 @@
     font-size: 14px;
     background: red;
     color:white;
-
 }
