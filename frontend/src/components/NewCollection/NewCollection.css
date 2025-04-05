@@ -1,0 +1,29 @@
+.New-Collections {
+    display: flex; /* Uses Flexbox layout */
+    flex-direction: column; /* Stacks children vertically */
+    align-items: center; /* Centers children horizontally */
+    gap: 10px; /* Adds vertical space between children */
+    height: 90vh; /* Sets height to 90% of the viewport */
+}
+
+.New-Collections h1 {
+    color: #171717; /* Dark text color */
+    font-size: 40px; /* Large font size */
+    font-weight: 600; /* Semi-bold text */
+}
+
+
+.New-Collections hr {
+    width: 200px; /* Horizontal line width */
+    height: 6px; /* Thickness of the line */
+    border-radius: 10px; /* Rounded edges */
+    background: #252525; /* Dark background color for the line */
+}
+
+.collections {
+    display: grid; /* Uses CSS Grid layout */
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Creates 4 equal-width columns */
+    margin-top: 50px; /* Adds space above the grid */
+    column-gap: 300px; /* Keeps wide horizontal space between items */
+    row-gap: 50px;     /* Reduced vertical space between rows */
+}
