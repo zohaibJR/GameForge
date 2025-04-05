@@ -3,12 +3,13 @@
     flex-direction: column; /* Stacks children vertically */
     align-items: center; /* Centers children horizontally */
     gap: 10px; /* Adds vertical space between children */
-    height: 90vh; /* Sets height to 90% of the viewport */
+    /* height: 90vh; Sets height to 90% of the viewport */
+    margin-bottom: 100px;
 }
 
 .New-Collections h1 {
     color: #171717; /* Dark text color */
-    font-size: 40px; /* Large font size */
+    font-size: 50px; /* Large font size */
     font-weight: 600; /* Semi-bold text */
 }
 
