@@ -1,14 +1,18 @@
 .item
 {
-    width: 100px;
+    width: 275px;
 }
 
-.item p{
-    margin: 6px 0px;
+.item p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 12px;
     font-weight: bold;
-    font-size: 25px;
-    margin-left: 12px; /* Moves text to the right */
+    font-size: 20px;
+    color: #000;
 }
+
+
 
 .item-prices
 {

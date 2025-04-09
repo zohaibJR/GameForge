@@ -9,11 +9,13 @@ const item = (props) => {
         <p>{props.name}</p>
         <div className='item-prices'>
             <div className='item-prices-new'>
+              <br />
                 RS={props.new_price}
             </div>
-            <div className='item-prices-old'>
+
+            {/* <div className='item-prices-old'>
             RS={props.old_price}
-            </div>
+            </div> */}
 
         </div>
     </div>
