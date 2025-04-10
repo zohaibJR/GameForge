@@ -4,6 +4,7 @@ import GTA5 from "../Assets/GTA5_PS4.png"
 import W2K25 from "../Assets/W2K23_Xbox.png"
 import DualShockBlack from '../Assets/DualSchok-Black.png'
 import DualShockWhite from '../Assets/DualSchok-White.png'
+import PS4_Headset from '../Assets/PS4 Headset.png'
 
 
 let all_product = [
@@ -54,11 +55,20 @@ let all_product = [
 
     {
         id: 6,
-        name: "DUALSHOCK®4 Wireless Controller for PS4™ Glacier White",
+        name: "DUALSHOCK®4 Wireless Controller-Glacier White",
         category: "Accessories",
         image: DualShockWhite,
         new_price: 6500,
         old_price: 6000,
+    },
+
+    {
+        id: 7,
+        name: "PS4 Wireless Digital Stereo Headset",
+        category: "Accessories",
+        image: PS4_Headset,
+        new_price: 4500,
+        old_price: 5500,
     },
 
 

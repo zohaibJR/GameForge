@@ -33,11 +33,16 @@ const ShopCategory = (props) => {
                 />
               );
             } else {
-              <p>Kuch nhe ha</p>
               return null; // optional: skip items not in category
             }
           })}
 </div>
+
+
+
+    <div className="shopcategory-loadmore">
+      Explore More
+    </div>
     </div>
   )
 }

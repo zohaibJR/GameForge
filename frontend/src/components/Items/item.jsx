@@ -9,7 +9,6 @@ const item = (props) => {
         <p>{props.name}</p>
         <div className='item-prices'>
             <div className='item-prices-new'>
-              <br />
                 RS={props.new_price}
             </div>
 
