@@ -5,6 +5,7 @@ import W2K25 from "../Assets/W2K23_Xbox.png"
 import DualShockBlack from '../Assets/DualSchok-Black.png'
 import DualShockWhite from '../Assets/DualSchok-White.png'
 import PS4_Headset from '../Assets/PS4 Headset.png'
+import RDR from '../Assets/RDR.png'
 
 
 let all_product = [
@@ -71,7 +72,14 @@ let all_product = [
         old_price: 5500,
     },
 
-
+    {
+        id: 8,
+        name: "Red Dead Redemption",
+        category: "PS4",
+        image: RDR,
+        new_price: 7800,
+        old_price: 9000,
+    },
 ];
 
 export default all_product;

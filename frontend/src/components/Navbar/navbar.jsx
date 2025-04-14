@@ -17,8 +17,8 @@ const Navbar = () => { // ✅ Fixed component name (Capitalized)
 
       <ul className="nav-menu">
         <li onClick={() => setMenu("Shop")}><Link style={{textDecoration:'none'}} to='/'>Shop</Link>{menu === "Shop" ? <hr /> : null} </li>
-        <li onClick={() => setMenu("PS4")}><Link style={{textDecoration:'none'}} to='/PS4'>PS4</Link>{menu === "PS4" ? <hr /> : null} </li>
-        <li onClick={() => setMenu("Xbox")}><Link style={{textDecoration:'none'}} to='/Xbox'>Xbox</Link>{menu === "Xbox" ? <hr /> : null} </li>
+        <li onClick={() => setMenu("PS4")}><Link style={{textDecoration:'none'}} to='/PS4'>PS4 Games</Link>{menu === "PS4" ? <hr /> : null} </li>
+        <li onClick={() => setMenu("Xbox")}><Link style={{textDecoration:'none'}} to='/Xbox'>Xbox Games</Link>{menu === "Xbox" ? <hr /> : null} </li>
         <li onClick={() => setMenu("Accessories")}><Link style={{textDecoration:'none'}} to='/Accessories'>Accessories</Link>{menu === "Accessories" ? <hr /> : null} </li>
       </ul>
 
